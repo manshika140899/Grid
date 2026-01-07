@@ -1,0 +1,28 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.grid-box {
+    width: 70%;
+    height: 700px;
+    background-color: blueviolet;
+    border: 3px solid black;
+    margin-inline: auto;
+    margin-block: 50px 0px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    column-gap: 10px;
+
+}
+
+.grid-card {
+    height: 150px;
+    width: 25%;
+    margin: 20px 20px;
+    background-color: brown;
+    border: 3px solid rgb(226, 148, 174);
+    text-align: center;
+}
